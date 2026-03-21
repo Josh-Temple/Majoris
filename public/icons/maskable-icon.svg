@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Majoris maskable icon</title>
+  <desc id="desc">Black circle inside a white safe area with a black M in the center.</desc>
+  <rect width="512" height="512" fill="#ffffff"/>
+  <circle cx="256" cy="256" r="184" fill="#000000"/>
+  <text x="256" y="304" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="212" font-weight="300" letter-spacing="-12" fill="#ffffff">M</text>
+</svg>
