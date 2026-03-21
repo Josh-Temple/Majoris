@@ -8,6 +8,7 @@ A minimalist, mobile-first web application for training the Major System (a mnem
 - **Extreme Minimalism**: A distraction-free, typography-focused UI ("引き算の美学").
 - **Dark Mode**: Full support for light and dark themes.
 - **Local First**: All data is stored securely in your browser's `localStorage`.
+- **PWA Ready**: Installable on supported devices with offline app-shell caching after the first load.
 - **Import/Export**: Backup and restore your custom peg lists and progress.
 
 ## Tech Stack
@@ -16,6 +17,12 @@ A minimalist, mobile-first web application for training the Major System (a mnem
 - Tailwind CSS v4
 - Framer Motion (`motion/react`)
 - Lucide React (Icons)
+
+## PWA Support
+- `public/manifest.webmanifest` defines the installable app metadata.
+- `public/sw.js` caches the app shell and serves a cached `/` page for offline navigation after the first successful load.
+- Installability requires HTTPS (or `localhost` during development) because service workers only register in secure contexts.
+
 
 ## 🤖 AI Handoff Instructions (For Codex, ChatGPT, Claude, Cursor)
 
